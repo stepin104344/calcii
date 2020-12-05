@@ -1,7 +1,6 @@
 
   
 #include<function.h>
-
 int main()
 {
     float choice,input1,result;
@@ -58,6 +57,6 @@ int main()
             printf("%f",result);
             break;
     }
-
+	test_main();
     return 0;
 }
