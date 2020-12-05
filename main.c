@@ -19,42 +19,42 @@ int main()
         case 1:
             printf("\nEnter temp to convert");
             scanf("%f",&input1);
-            result = do_celsius_fahrenheit(float input1);
+            result = do_celsius_fahrenheit(long int input1);
             printf("%f",result);
             break;
             
         case 2:
             printf("\nEnter temp to convert");
             scanf("%f",&input1);
-            result = do_kelvin_fahrenheit(float input1);
+            result = do_kelvin_fahrenheit(long int input1);
             printf("%f",result);
             break;
             
         case 3:
             printf("\nEnter temp to convert");
             scanf("%f",&input1);
-            result = do_fahrenheit_celsius(float input1);
+            result = do_fahrenheit_celsius(long int input1);
             printf("%f",result);
             break;
             
         case 4:
             printf("\nEnter temp to convert");
             scanf("%f",&input1);
-            result = do_celsius_kelvin(float input1);
+            result = do_celsius_kelvin(long int input1);
             printf("%f",result);
             break;
             
         case 5:
             printf("\nEnter temp to convert");
             scanf("%f",&input1);
-            trigoutput = do_kelvin_celsius(float input1)
+            trigoutput = do_kelvin_celsius(long int input1)
             printf("%f",result);
             break;
             
         case 6:
            printf("\nEnter temp to convert");
             scanf("%f",&input1);
-            trigoutput = do_fahrenheit_kelvin(float input1)
+            trigoutput = do_fahrenheit_kelvin(long int input1)
             printf("%f",result);
             break;
     }
